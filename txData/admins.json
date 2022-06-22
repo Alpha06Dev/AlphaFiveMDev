@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Jordan_Radio",
+    "master": true,
+    "password_hash": "$2a$11$48XDs3YKejByB/NI20VeVeOCfsa4wmZceHPB9edUQPQAKPP1ehRFa",
+    "providers": {
+      "citizenfx": {
+        "id": "Jordan_Radio",
+        "identifier": "fivem:24946",
+        "data": {
+          "sub": "6cc96e00a2f623728bb5dd424edc3c29",
+          "nameid": "https://forum.cfx.re/internal/user/24946",
+          "name": "Jordan_Radio",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/jordan_radio/256/131011_2.png",
+          "profile": "https://forum.cfx.re/u/Jordan_Radio"
+        }
+      }
+    },
+    "permissions": []
+  }
+]

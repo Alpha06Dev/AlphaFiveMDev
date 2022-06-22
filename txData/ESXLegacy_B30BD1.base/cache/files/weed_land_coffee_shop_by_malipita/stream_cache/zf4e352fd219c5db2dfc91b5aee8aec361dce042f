@@ -1,0 +1,21 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>hei_vb_19_strm_0.ymap</Item>
+    <Item>hei_vb_35.ymap</Item>
+    <Item>hei_vb_35_strm_2.ymap</Item>
+    <Item>malipita_weed_land_coffee_shop.ymap</Item>
+    <Item>malipita_weed_land_coffee_shop_ext.ymap</Item>
+    <Item>vb_occl_01.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>malipita_weed_land_coffee_shop_ytyp.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+</CodeWalkerProject>

@@ -1,0 +1,16 @@
+Locales['fr'] = {
+  ['shop_robbery'] = 'braquage magasin',
+  ['press_to_rob'] = 'appuyez sur ~INPUT_CONTEXT~ pour braquer ~r~%s',
+  ['robbery_timer'] = 'Temps : ~r~%s ~s~secondes',
+  ['recently_robbed'] = 'ce magasin a déjà été braqué. Attendez ~r~%s secondes.',
+  ['rob_in_prog'] = '~r~Braquage en cours à: %s',
+  ['started_to_rob'] = 'vous avez commencé à braquer %s',
+  ['alarm_triggered'] = 'l\'alarme a été déclenchée',
+  ['robbery_complete'] = '~r~Braquage terminé. Vous avez ~o~volé $%s',
+  ['robbery_complete_at'] = '~r~Braquage terminé à: %s',
+  ['robbery_cancelled'] = 'le braquage va être annulé, vous ne gagnerez rien!',
+  ['robbery_cancelled_at'] = '~r~Braquage annulé à: %s',
+  ['min_police'] = 'il faut minimum %s policiers en ville pour braquer.',
+  ['robbery_already'] = '~r~Un braquage est déjà en cours.',
+  ['no_threat'] = 'vous ne représentez pas une menace pour le vendeur.',
+}

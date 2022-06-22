@@ -1,0 +1,2368 @@
+
+================================================================
+======== FXServer Starting - 22/06/2022, 14:33:52               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 82 resources.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
+[    c-resources-core] Could not start dependency webpack for resource chat.
+[ citizen-server-impl] Couldn't start resource chat.
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[38;5;161m[    c-scripting-core] Creating script environments for esx_identity
+[38;5;73m[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[38;5;73m[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[38;5;73m[ citizen-server-impl] Started resource esx_multicharacter
+[38;5;73m[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx-radio
+[38;5;29m[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_datastore
+[38;5;73m[ citizen-server-impl] Started resource esx_datastore
+[38;5;161m[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] [0mCreating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[38;5;161m[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[38;5;73m[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[38;5;73m[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[38;5;73m[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[38;5;161m[    c-scripting-core] Creating script environments for esx_mechanicjob
+[38;5;73m[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[38;5;73m[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[38;5;73m[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[38;5;73m[ citizen-server-impl] Started resource esx_weaponshop
+[38;5;161m[    c-scripting-core] Creating script environments for ev-hud
+[38;5;73m[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] [1/4] Resolving packages...
+[         script:yarn] [2/4] Fetching packages...
+[         script:yarn] 
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[      script:oxmysql] [WARNING] esx_boat took 230.2634ms to execute a query!
+[      script:oxmysql]     UPDATE owned_vehicles SET `stored` = true WHERE `stored` = false AND type = ? ["boat"]
+[      script:oxmysql] [WARNING] es_extended took 403.2466ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [WARNING] esx_addoninventory took 403.3475ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[  script:es_extended] [INFO] ESX Legacy initialized
+[      script:oxmysql] [WARNING] esx_vehicleshop took 423.9307ms to execute a query!
+[      script:oxmysql]     SELECT * FROM vehicle_categories []
+[      script:oxmysql] [93m[WARNING] esx_addonaccount took 435.5461ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [WARNING] esx_datastore took 540.6779ms to execute a query!
+[      script:oxmysql]     SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name []
+[      script:oxmysql] [WARNING] esx_addoninventory took 200.9291ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_inventory []
+[      script:oxmysql] [WARNING] esx_vehicleshop took 215.521ms to execute a query!
+[      script:oxmysql]     SELECT * FROM vehicles []
+[      script:oxmysql] [WARNING] esx_addoninventory took 226.7465ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_inventory_items WHERE inventory_name = ? ["property"]
+[      script:oxmysql] [WARNING] esx_addonaccount took 480.8343ms to execute a query!
+[      script:oxmysql]     INSERT INTO addon_account_data (account_name, money) VALUES (?, ?) ["society_banker",0]
+[      script:oxmysql] [WARNING] esx_addoninventory took 320.1767ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_inventory_items WHERE inventory_name = ? ["society_ambulance"]
+[       script:ev-hud] Finished
+[      script:oxmysql] [WARNING] esx_multicharacter took 497.5672ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `whitelist` MODIFY COLUMN `identifier` VARCHAR(46) []
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 14:34:10               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 82 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] [0mStarted resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] [97mStarted resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] [97mStarted resource yarn
+[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
+[38;5;163m[    c-resources-core] Could not start dependency webpack for resource chat.
+[ citizen-server-impl] Couldn't start resource chat.
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] [0m[0mStarted resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[38;5;73m[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[38;5;73m[ citizen-server-impl] Started resource async
+[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[38;5;73m[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[38;5;73m[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[38;5;73m[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[38;5;161m[    c-scripting-core] Creating script environments for esx_optionalneeds
+[38;5;73m[ citizen-server-impl] Started resource esx_optionalneeds
+[38;5;161m[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
+[         script:yarn] 
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[38;5;42m[      script:oxmysql] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[  script:es_extended] [INFO] ESX Legacy initialized
+[38;5;42m[      script:oxmysql] [WARNING] esx_addonaccount took 343.0358ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[38;5;42m[      script:oxmysql] [WARNING] esx_boat took 546.9368ms to execute a query!
+[      script:oxmysql]     UPDATE owned_vehicles SET `stored` = true WHERE `stored` = false AND type = ? ["boat"]
+[      script:oxmysql] [WARNING] esx_multicharacter took 552.3305ms to execute a query!
+[      script:oxmysql]     SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_MAXIMUM_LENGTH FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = "ESXLegacy_B30BD1" AND DATA_TYPE = "varchar" AND COLUMN_NAME IN (?) [["identifier","owner"]]
+[      script:oxmysql] [WARNING] esx_datastore took 825.0072ms to execute a query!
+[      script:oxmysql]     SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name []
+[         script:yarn] [yarn] [1/4] Resolving packages...
+[         script:yarn] 
+[      script:oxmysql] [WARNING] esx_property took 619.0087ms to execute a query!
+[      script:oxmysql]     SELECT * FROM `properties` []
+[         script:yarn] [yarn] [2/4] Fetching packages...
+[         script:yarn] 
+[       script:ev-hud] Finished
+[      script:oxmysql] [WARNING] esx_multicharacter took 453.8058ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `users` MODIFY COLUMN `identifier` VARCHAR(46) []
+[         script:yarn] [yarn] info fsevents@2.3.1: The platform "win32" is incompatible with this module.
+[         script:yarn] info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+[         script:yarn] 
+[         script:yarn] [yarn] info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] [3/4] Linking dependencies...
+[         script:yarn] 
+[      script:oxmysql] [WARNING] esx_multicharacter took 216.5466ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `addon_account_data` MODIFY COLUMN `owner` VARCHAR(46) []
+[38;5;42m[      script:oxmysql] [WARNING] esx_multicharacter took 340.9291ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `user_licenses` MODIFY COLUMN `owner` VARCHAR(46) []
+[      script:oxmysql] [WARNING] esx_multicharacter took 810.0021ms to execute a query!
+[      script:oxmysql] [93m    ALTER TABLE `user_contacts` MODIFY COLUMN `identifier` VARCHAR(46) []
+[      script:oxmysql] [WARNING] esx_multicharacter took 796.8679ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `rented_vehicles` MODIFY COLUMN `owner` VARCHAR(46) []
+[         script:yarn] [yarn] [4/4] Building fresh packages...
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Ignored scripts due to flag.
+[         script:yarn] 
+[38;5;151m[         script:yarn] [yarn] Done in 44.93s.
+[         script:yarn] 
+[ citizen-server-impl] [0mBuild tasks completed - starting resource webpack.
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[ citizen-server-impl] Started resource webpack
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] 
+[         script:yarn] [yarn] [1/4] Resolving packages...
+[         script:yarn] 
+[         script:yarn] [yarn] [2/4] Fetching packages...
+[         script:yarn] 
+[ citizen-server-impl] network thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
+[      script:oxmysql] [WARNING] esx_multicharacter took 878.7617ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `owned_properties` MODIFY COLUMN `owner` VARCHAR(46) []
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[38;5;42m[      script:oxmysql] [WARNING] esx_multicharacter took 767.3781ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `society_moneywash` MODIFY COLUMN `identifier` VARCHAR(46) []
+[      script:oxmysql] [WARNING] esx_multicharacter took 996.3871ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `datastore_data` MODIFY COLUMN `owner` VARCHAR(46) []
+[      script:oxmysql] [WARNING] esx_multicharacter took 778.1589ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `banking` MODIFY COLUMN `identifier` VARCHAR(46) []
+[      script:oxmysql] [WARNING] esx_multicharacter took 341.1953ms to execute a query!
+[      script:oxmysql]     ALTER TABLE `multicharacter_slots` MODIFY COLUMN `identifier` VARCHAR(46) []
+[script:esx_multichar] [INFO] Updated 12 columns to use VARCHAR(46)
+[         script:yarn] [yarn] info fsevents@1.2.11: The platform "win32" is incompatible with this module.
+[         script:yarn] 
+[         script:yarn] [yarn] info "fsevents@1.2.11" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] [3/4] Linking dependencies...
+[         script:yarn] 
+[         script:yarn] [yarn] [4/4] Building fresh packages...
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Ignored scripts due to flag.
+[         script:yarn] 
+[38;5;151m[         script:yarn] [yarn] Done in 92.21s.
+[         script:yarn] 
+[      script:webpack] chat: started building webpack.config.js
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 978 milliseconds
+[38;5;21m[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 150 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 189 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 131 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 179 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 243 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 258 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 174 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 228 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[      script:oxmysql] [WARNING] es_extended took 203.309ms to execute a query!
+[      script:oxmysql]     INSERT INTO `users` SET `accounts` = ?, `identifier` = ?, `group` = ?, `firstname` = ?, `lastname` = ?, `dateofbirth` = ?, `sex` = ?, `height` = ? ["{\"bank\":50000}","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714","user","Loki","Milow","28/02/1996","m","185"]
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[      script:oxmysql] [WARNING] esx_datastore took 215.9412ms to execute a query!
+[      script:oxmysql]     INSERT INTO datastore_data (name, owner, data) VALUES (?, ?, ?) ["user_ears","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714","{}"]
+[      script:oxmysql] [WARNING] esx_datastore took 340.5111ms to execute a query!
+[      script:oxmysql]     INSERT INTO datastore_data (name, owner, data) VALUES (?, ?, ?) ["user_helmet","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714","{}"]
+[      script:oxmysql] [WARNING] esx_datastore took 348.0146ms to execute a query!
+[      script:oxmysql]     INSERT INTO datastore_data (name, owner, data) VALUES (?, ?, ?) ["property","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714","{}"]
+[      script:oxmysql] [WARNING] esx_addonaccount took 467.5546ms to execute a query!
+[      script:oxmysql]     INSERT INTO addon_account_data (account_name, money, owner) VALUES (?, ?, ?) ["bank_savings",0,"char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[      script:oxmysql] [WARNING] esx_addonaccount took 583.5428ms to execute a query!
+[      script:oxmysql]     INSERT INTO addon_account_data (account_name, money, owner) VALUES (?, ?, ?) ["property_black_money",0,"char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[      script:oxmysql] [WARNING] esx_status took 590.2011ms to execute a query!
+[      script:oxmysql]     SELECT status FROM users WHERE identifier = ? ["char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[      script:oxmysql] [WARNING] esx_addonaccount took 592.0397ms to execute a query!
+[      script:oxmysql]     INSERT INTO addon_account_data (account_name, money, owner) VALUES (?, ?, ?) ["caution",0,"char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[      script:oxmysql] [WARNING] esx_datastore took 608.1733ms to execute a query!
+[      script:oxmysql]     INSERT INTO datastore_data (name, owner, data) VALUES (?, ?, ?) ["user_mask","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714","{}"]
+[      script:oxmysql] [WARNING] esx_license took 683.2394ms to execute a query!
+[      script:oxmysql]     SELECT user_licenses.type, licenses.label FROM user_licenses LEFT JOIN licenses ON user_licenses.type = licenses.type WHERE owner = ? ["char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[      script:oxmysql] [WARNING] esx_lscustom took 469.3793ms to execute a query!
+[      script:oxmysql]     SELECT model, price FROM vehicles []
+[      script:oxmysql] [WARNING] esx_property took 563.2393ms to execute a query!
+[      script:oxmysql]     SELECT name, rented FROM owned_properties WHERE owner = ? ["char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[38;5;42m[      script:oxmysql] [WARNING] esx_skin took 367.247ms to execute a query!
+[      script:oxmysql]     UPDATE users SET skin = ? WHERE identifier = ? ["{\"age_1\":0,\"complexion_2\":0,\"glasses_2\":0,\"decals_1\":0,\"bodyb_1\":-1,\"lipstick_3\":0,\"beard_2\":0,\"chain_1\":0,\"chain_2\":0,\"eyebrows_1\":0,\"glasses_1\":0,\"makeup_1\":0,\"decals_2\":0,\"eyebrows_3\":0,\"skin_md_weight\":50,\"chin_2\":0,\"eyebrows_6\":0,\"hair_color_1\":0,\"ears_2\":0,\"torso_2\":0,\"bodyb_4\":0,\"dad\":0,\"watches_1\":-1,\"bracelets_2\":0,\"arms_2\":0,\"moles_1\":0,\"lipstick_4\":0,\"nose_3\":0,\"jaw_2\":0,\"lip_thickness\":0,\"cheeks_2\":0,\"shoes_1\":0,\"tshirt_1\":0,\"chin_4\":0,\"makeup_2\":0,\"beard_1\":0,\"watches_2\":0,\"makeup_4\":0,\"age_2\":0,\"helmet_2\":0,\"chin_3\":0,\"bodyb_3\":-1,\"beard_3\":0,\"bags_2\":0,\"mask_1\":0,\"mask_2\":0,\"cheeks_3\":0,\"blemishes_2\":0,\"chin_1\":0,\"arms\":0,\"makeup_3\":0,\"shoes_2\":0,\"nose_1\":0,\"hair_color_2\":0,\"lipstick_1\":0,\"bproof_2\":0,\"chest_2\":0,\"blush_3\":0,\"chest_1\":0,\"hair_2\":0,\"torso_1\":0,\"blush_1\":0,\"eye_color\":0,\"nose_4\":0,\"nose_6\":0,\"face_md_weight\":50,\"blush_2\":0,\"tshirt_2\":0,\"lipstick_2\":0,\"hair_1\":0,\"neck_thickness\":0,\"helmet_1\":-1,\"nose_5\":0,\"moles_2\":0,\"eyebrows_4\":0,\"ears_1\":-1,\"bodyb_2\":0,\"cheeks_1\":0,\"sun_1\":0,\"eyebrows_2\":0,\"chin_13\":0,\"bproof_1\":0,\"sex\":0,\"bags_1\":0,\"mom\":21,\"complexion_1\":0,\"sun_2\":0,\"jaw_1\":0,\"blemishes_1\":0,\"bracelets_1\":-1,\"eyebrows_5\":0,\"beard_4\":0,\"nose_2\":0,\"eye_squint\":0,\"pants_2\":0,\"chest_3\":0,\"pants_1\":0}","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+> setgroup 1 superadmin
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[38;5;220m[  script:es_extended] [INFO] Saved player "Loki Milow"
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 14:42:41               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 82 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] [97mStarted resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] [0mCreating script environments for async
+[ citizen-server-impl] [97mStarted resource async
+[    c-scripting-core] [0mCreating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[    c-scripting-core] [97mCreating script environments for esx_identity
+[ citizen-server-impl] [97mStarted resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] [0mCreating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[38;5;73m[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[38;5;161m[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio] [0m ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] [97mStarted resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] [0mCreating script environments for esx_addoninventory
+[ citizen-server-impl] [97mStarted resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[38;5;73m[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] [0mCreating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[38;5;73m[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[38;5;161m[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] [97mCreating script environments for esx_jobs
+[38;5;73m[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] [97mCreating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] [97mCreating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] [97mCreating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] [0mStarted resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[38;5;73m[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[  script:es_extended] [INFO] ESX Legacy initialized
+[       script:ev-hud] Finished
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 14:52:21               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 84 resources.
+[          svadhesive] [0mAuthenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[38;5;73m[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[ citizen-server-impl] [93mAsset rest/fluorine4305_dedrest.ytd uses 49.2 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [93mAsset rest/fluorine4305_dedrest.ytd uses 49.2 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Started resource rest
+[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] [0mStarted resource async
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] [0mCreating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[38;5;29m[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_datastore
+[38;5;73m[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[38;5;161m[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[38;5;161m[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] [0mCreating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[38;5;73m[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl] [91m ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] Finished
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 176 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 176 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 176 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 256 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 140 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 133 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 130 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 196 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 214 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 145 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[38;5;220m[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved player "Loki Milow"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 15:03:42               
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 85 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] [0mStarted resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] [97mStarted resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] [0mStarted resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] [97mStarted resource bob74_ipl
+[ citizen-server-impl] Asset rest/fluorine4305_dedrest.ytd uses 49.2 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Started resource rest
+[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[ citizen-server-impl] [0mAsset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] [0mStarted resource alpha_billardmlo
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] [0mCreating script environments for async
+[ citizen-server-impl] Started resource async
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[38;5;73m[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] [0mStarted resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] [0mCreating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] [0mCreating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[38;5;161m[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] [0mStarted resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] [0mCreating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] [0mStarted resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[38;5;161m[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] [0mStarted resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[38;5;161m[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[38;5;161m[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[  script:es_extended] [INFO] ESX Legacy initialized
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] Finished
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 160 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 122 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_animations
+[ citizen-server-impl] Stopping resource esx_multicharacter
+[ citizen-server-impl] Stopping resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_default
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[38;5;220m[  script:es_extended] [WARNING] Command "setslots" already registered, overriding command
+[  script:es_extended] [WARNING] Command "remslots" already registered, overriding command
+[  script:es_extended] [WARNING] Command "enablechar" already registered, overriding command
+[  script:es_extended] [WARNING] Command "disablechar" already registered, overriding command
+[ citizen-server-impl] Started resource esx_multicharacter
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 122 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[38;5;73m[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] Stopping resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_barbershop
+[38;5;73m[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[38;5;73m[ citizen-server-impl] Stopping resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[38;5;73m[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[38;5;73m[ citizen-server-impl] Started resource esx_barbershop
+[ citizen-server-impl] Stopping resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] [INFO] Saved player "Loki Milow"
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 15:17:13               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 83 resources.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[ citizen-server-impl] Asset rest/fluorine4305_dedrest.ytd uses 49.2 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Started resource rest
+[38;5;73m[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[ citizen-server-impl] Asset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource alpha_billardmlo
+[    c-scripting-core] Creating script environments for es_extended
+[38;5;73m[ citizen-server-impl] Started resource es_extended
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[38;5;73m[ citizen-server-impl] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[38;5;73m[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[ citizen-server-impl] Started resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[ citizen-server-impl] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ citizen-server-impl] server thread hitch warning: timer interval of 212 milliseconds
+[      script:oxmysql] Database server connection established!
+[  script:es_extended] [INFO] ESX Legacy initialized
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[       script:ev-hud] Finished
+[ citizen-server-impl] server thread hitch warning: timer interval of 222 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 142 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[38;5;134m[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] server thread hitch warning: timer interval of 175 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_shops
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 240 milliseconds
+[ citizen-server-impl] Stopping resource esx_shops
+[    c-scripting-core] Creating script environments for esx_shops
+[38;5;73m[ citizen-server-impl] Started resource esx_shops
+[ citizen-server-impl] Stopping resource esx_shops
+[38;5;161m[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[ citizen-server-impl] Stopping resource esx_shops
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_shops
+[    c-scripting-core] Creating script environments for esx_shops
+[38;5;73m[ citizen-server-impl] Started resource esx_shops
+[  script:es_extended] [INFO] Saved 1 player over 1e-06 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_shops
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] server thread hitch warning: timer interval of 208 milliseconds
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[38;5;73m[ citizen-server-impl] Started resource esx_holdup
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[38;5;73m[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[38;5;73m[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_holdup
+[38;5;161m[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[38;5;73m[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 205 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 162 milliseconds
+[38;5;73m[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[38;5;73m[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] sync thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 170 milliseconds
+[      script:oxmysql] [WARNING] es_extended took 201.4396ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":51600,\"black_money\":26428,\"money\":845000}","unemployed",0,"admin","{\"z\":12.2,\"y\":-896.4,\"x\":-1228.4,\"heading\":205.2}","{\"bread\":3}","{\"WEAPON_PISTOL\":{\"ammo\":9999}}","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[ citizen-server-impl] Stopping resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[38;5;73m[ citizen-server-impl] Couldn't find resource esx_clotheshio.
+[38;5;73m[ citizen-server-impl] Stopping resource esx_clotheshop
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[38;5;73m[ citizen-server-impl] Found 1 new resources, and refreshed 0/83 resources.
+[ citizen-server-impl] server thread hitch warning: timer interval of 322 milliseconds
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[script:esx_eden_clot] SCRIPT ERROR: @esx_eden_clotheshop/server/main.lua:56: attempt to compare number with nil
+[script:esx_eden_clot] > TriggerServerCallback (@es_extended/server/functions.lua:160)
+[script:esx_eden_clot] > handler (@es_extended/server/common.lua:124)
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] (nil stack trace)SCRIPT ERROR: @esx_eden_clotheshop/server/main.lua:56: attempt to compare number with nil
+[script:esx_eden_clot] > TriggerServerCallback (@es_extended/server/functions.lua:160)
+[script:esx_eden_clot] > handler (@es_extended/server/common.lua:124)
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[  script:es_extended] (nil stack trace)Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[38;5;73m[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] Stopping resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Couldn't find resource esx_weaponshops.
+[ citizen-server-impl] Stopping resource esx_weaponshop
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[38;5;73m[ citizen-server-impl] Started resource esx_weaponshop
+[ citizen-server-impl] server thread hitch warning: timer interval of 195 milliseconds
+[ citizen-server-impl] Stopping resource esx_weaponshop
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_weaponshop
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_bankerjob
+[    c-scripting-core] Creating script environments for esx_bankerjob
+[38;5;73m[ citizen-server-impl] Started resource esx_bankerjob
+[ citizen-server-impl] server thread hitch warning: timer interval of 177 milliseconds
+[ citizen-server-impl] Stopping resource esx_bankerjob
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_banking
+[38;5;73m[ citizen-server-impl] Couldn't find resource a_loadingbar.
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 2 new resources, and refreshed 0/82 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - atm_ui
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[ citizen-server-impl] Started resource a_loadingbar
+[    c-scripting-core] Creating script environments for atm_ui
+[ citizen-server-impl] Started resource atm_ui
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_textui
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[ citizen-server-impl] Stopping resource esx_garage
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[ citizen-server-impl] server thread hitch warning: timer interval of 245 milliseconds
+[ citizen-server-impl] Stopping resource esx_boat
+[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[ citizen-server-impl] Stopping resource esx_policejob
+[ citizen-server-impl] Stopping resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[ citizen-server-impl] server thread hitch warning: timer interval of 427 milliseconds
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 204 milliseconds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 237 milliseconds
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[ citizen-server-impl] Stopping resource esx_policejob
+[ citizen-server-impl] Stopping resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[38;5;220m[  script:es_extended] [INFO] Saved player "Loki Milow"
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 17:10:22               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 83 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - atm_ui
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[ citizen-server-impl] Asset rest/fluorine4305_dedrest.ytd uses 49.2 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[38;5;73m[ citizen-server-impl] Started resource rest
+[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[ citizen-server-impl] [94mAsset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource alpha_billardmlo
+[    c-scripting-core] Creating script environments for es_extended
+[38;5;73m[ citizen-server-impl] Started resource es_extended
+[38;5;161m[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] [0mStarted resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[38;5;73m[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[38;5;73m[ citizen-server-impl] Started resource a_loadingbar
+[    c-scripting-core] Creating script environments for atm_ui
+[38;5;73m[ citizen-server-impl] Started resource atm_ui
+[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] [0mCreating script environments for esx_status
+[38;5;73m[ citizen-server-impl] Started resource esx_status
+[38;5;161m[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_garage
+[38;5;73m[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[38;5;73m[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] [0mStarted resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[38;5;73m[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] [97mDatabase server connection established!
+[  script:es_extended] [INFO] ESX Legacy initialized
+[       script:ev-hud] [0m[ev-hud] is updated. Settings saved values to players...
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[38;5;42m[      script:oxmysql] [WARNING] esx_datastore took 210.5508ms to execute a query!
+[      script:oxmysql]     SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name []
+[       script:ev-hud] Finished
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [91mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[  script:es_extended] [INFO] Saved player "Loki Milow"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+> quit "Server restarting (Jordan_Radio)."
+[38;5;186m[ citizen-server-main] -> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 17:48:29               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 84 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - atm_ui
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest.ytd uses 24.6 MiB of physical memory.
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest.ytd uses 24.6 MiB of physical memory.
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest_3.ytd uses 22.0 MiB of physical memory.
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest_3.ytd uses 22.0 MiB of physical memory.
+[ citizen-server-impl] Started resource edo-restaurant
+[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[ citizen-server-impl] Asset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource alpha_billardmlo
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[38;5;161m[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[38;5;73m[ citizen-server-impl] Started resource pma-voice
+[38;5;73m[ citizen-server-impl] Started resource a_loadingbar
+[    c-scripting-core] Creating script environments for atm_ui
+[ citizen-server-impl] Started resource atm_ui
+[38;5;161m[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio]  ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio]               TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[38;5;73m[ citizen-server-impl] Started resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[38;5;161m[    c-scripting-core] Creating script environments for esx_holdup
+[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[38;5;73m[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[38;5;73m[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] [0mCreating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_rpchat
+[ citizen-server-impl] Started resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[      script:oxmysql] Database server connection established!
+[  script:es_extended] [INFO] ESX Legacy initialized
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] Finished
+[ citizen-server-impl] sync thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 268 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 252 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 228 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+> quit "Server restarting (Jordan_Radio)."
+[ citizen-server-main] [0m-> Quitting: Server restarting (Jordan_Radio).
+
+================================================================
+======== FXServer Starting - 22/06/2022, 17:52:27               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 84 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - atm_ui
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] [0mAuthenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.2 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] [97mStarted resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] [0mCreating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[ citizen-server-impl] Started resource bob74_ipl
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest.ytd uses 24.6 MiB of physical memory.
+[ citizen-server-impl] Asset edo-restaurant/fluorine4305_dedrest_3.ytd uses 22.0 MiB of physical memory.
+[ citizen-server-impl] Started resource edo-restaurant
+[ citizen-server-impl] Asset weed_land_coffee_shop_by_malipita/malipita_weed_land_coffee_texture.ytd uses 18.0 MiB of physical memory.[0m
+[ citizen-server-impl] Started resource weed_land_coffee_shop_by_malipita
+[ citizen-server-impl] Asset alpha_billardmlo/patoche_billard_det17.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource alpha_billardmlo
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[ citizen-server-impl] Started resource esx_loadingscreen
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_dialog
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[ citizen-server-impl] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[ citizen-server-impl] Started resource a_loadingbar
+[    c-scripting-core] Creating script environments for atm_ui
+[ citizen-server-impl] Started resource atm_ui
+[    c-scripting-core] Creating script environments for esx-radio
+[    script:esx-radio] -------------------------------------------------------------------
+[    script:esx-radio]  ███████╗███████╗██╗  ██╗    ██████╗  █████╗ ██████╗ ██╗ ██████╗ 
+[    script:esx-radio]  ██╔════╝██╔════╝╚██╗██╔╝    ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗
+[    script:esx-radio]  █████╗  ███████╗ ╚███╔╝     ██████╔╝███████║██║  ██║██║██║   ██║
+[    script:esx-radio]  ██╔══╝  ╚════██║ ██╔██╗     ██╔══██╗██╔══██║██║  ██║██║██║   ██║
+[    script:esx-radio] [0m ███████╗███████║██╔╝ ██╗    ██║  ██║██║  ██║██████╔╝██║╚██████╔╝
+[    script:esx-radio]  ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝ ╚═════╝ 
+[    script:esx-radio]  Converted By Mycroft (Director of ESX) & Benzo (Manager of ESX)
+[    script:esx-radio]              Website: https://docs.esx-framework.org         
+[    script:esx-radio] [0m              TRClassic: https://dsc.gg/trclassic            
+[    script:esx-radio]    Visit store.rcore.cz/esx, Use creator code ESX for 10% off    
+[    script:esx-radio] -------------------------------------------------------------------
+[ citizen-server-impl] Started resource esx-radio
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[ citizen-server-impl] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] [0mCreating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] [0mCreating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] [0mStarted resource esx_clotheshop
+[ citizen-server-impl] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[38;5;161m[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] [0mStarted resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_eden_clotheshop
+[ citizen-server-impl] Started resource esx_eden_clotheshop
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_holdup
+[38;5;73m[ citizen-server-impl] Started resource esx_holdup
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[ citizen-server-impl] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for instance
+[ citizen-server-impl] Started resource instance
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] [0mStarted resource esx_realestateagentjob
+[    c-scripting-core] [0mCreating script environments for esx_rpchat
+[ citizen-server-impl] [0mStarted resource esx_rpchat
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[ citizen-server-impl] Started resource esx_shops
+[    c-scripting-core] Creating script environments for esx_sit
+[ citizen-server-impl] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[ citizen-server-impl] Started resource esx_weaponshop
+[    c-scripting-core] Creating script environments for ev-hud
+[ citizen-server-impl] Started resource ev-hud
+[ citizen-server-impl] Couldn't find resource rp-radio.
+[       script:ev-hud] [ev-hud] is updated. Settings saved values to players...
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[38;5;220m[  script:es_extended] [INFO] ESX Legacy initialized
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://jordan-radio-e8dpyp.users.cfx.re/
+[       script:ev-hud] Finished
+[ citizen-server-impl] sync thread hitch warning: timer interval of 148 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 188 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 214 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] sync thread hitch warning: timer interval of 145 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 133 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 150 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 1
+[      script:oxmysql] [WARNING] es_extended took 210.8589ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":51820,\"black_money\":26428,\"money\":787200}","taxi",4,"admin","{\"x\":-165.0,\"y\":278.5,\"z\":93.6,\"heading\":272.8}","{\"bread\":3}","{\"WEAPON_BAT\":{\"ammo\":42},\"WEAPON_PISTOL\":{\"ammo\":9999}}","char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[  script:es_extended] [INFO] Saved player "Loki Milow"
+[ citizen-server-impl] [91mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] network thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 145 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 265 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 320 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 321 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 216 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 148 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[      script:hardcap] Connecting: Alpha06
+[ citizen-server-impl] server thread hitch warning: timer interval of 189 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 145 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 283 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 237 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Loki Milow" has connected to the server. ID: 2
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] Stopping resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Stopping resource esx_mechanicjob
+[ citizen-server-impl] Stopping resource esx_realestateagentjob
+[ citizen-server-impl] Stopping resource esx_society
+[38;5;161m[    c-scripting-core] Creating script environments for esx_society
+[38;5;73m[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[  script:esx_society] SCRIPT ERROR: @esx_society/server/main.lua:88: attempt to index a nil value (local 'society')
+[38;5;230m[  script:esx_society] SCRIPT ERROR: @esx_society/server/main.lua:67: attempt to index a nil value (local 'society')
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Stopping resource esx_taxijob
+[    c-scripting-core] [0mCreating script environments for esx_taxijob
+[38;5;73m[ citizen-server-impl] Started resource esx_taxijob
+[ citizen-server-impl] Stopping resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_taxijob
+[ citizen-server-impl] Started resource esx_taxijob
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 1 new resources, and refreshed 0/84 resources.
+[    c-scripting-core] Creating script environments for krz_personalmenu
+[38;5;203m[script:krz_personalm] ======================================================================
+[script:krz_personalm] [Author] : Korioz
+[script:krz_personalm] [Version] : 2.1
+[script:krz_personalm] [Download] : https://github.com/korioz/krz_personalmenu/releases
+[script:krz_personalm] [Issues] : https://github.com/korioz/krz_personalmenu/issues
+[script:krz_personalm] ======================================================================
+[ citizen-server-impl] Started resource krz_personalmenu
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] Stopping resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[ citizen-server-impl] server thread hitch warning: timer interval of 1228 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[38;5;73m[ citizen-server-impl] Started resource esx_dmvschool
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 1e-06 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[ citizen-server-impl] Started resource esx_dmvschool
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_drugs
+[38;5;73m[ citizen-server-impl] Started resource esx_drugs
+[38;5;73m[ citizen-server-impl] Stopping resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[ citizen-server-impl] Stopping resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_drugs
+[ citizen-server-impl] Started resource esx_drugs
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[38;5;220m[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[38;5;73m[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 198 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 170 milliseconds
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[38;5;220m[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 177 milliseconds
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[38;5;161m[    c-scripting-core] Creating script environments for esx_ambulancejob
+[38;5;220m[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 209 milliseconds
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;73m[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[38;5;73m[ citizen-server-impl] Stopping resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Stopping resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[script:esx_joblistin] Error parsing script @esx_joblisting/server/main.lua in resource esx_joblisting: @esx_joblisting/server/main.lua:40: unfinished string near ''))'
+[    c-scripting-core] Failed to load script server/main.lua.
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[  script:es_extended] SCRIPT ERROR: error object is not a string
+[ citizen-server-impl] Stopping resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[  script:es_extended] [WARNING] Command "revive" already registered, overriding command
+[  script:es_extended] [WARNING] Command "reviveall" already registered, overriding command
+[ citizen-server-impl] Started resource esx_ambulancejob
+[38;5;73m[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;221m[script:esx_joblistin] Error parsing script @esx_joblisting/server/main.lua in resource esx_joblisting: @esx_joblisting/server/main.lua:40: unfinished string near '')'
+[    c-scripting-core] Failed to load script server/main.lua.
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[script:esx_joblistin] Error parsing script @esx_joblisting/server/main.lua in resource esx_joblisting: @esx_joblisting/server/main.lua:40: unfinished string near '')'
+[    c-scripting-core] Failed to load script server/main.lua.
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:40: attempt to index a nil value (global 'v')
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[script:esx_joblistin] Error parsing script @esx_joblisting/server/main.lua in resource esx_joblisting: @esx_joblisting/server/main.lua:43: unexpected symbol near ')'
+[    c-scripting-core] Failed to load script server/main.lua.
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;221m[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:36: bad argument #1 to 'pairs' (table expected, got string)
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:36: bad argument #1 to 'pairs' (table expected, got string)
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:36: bad argument #1 to 'pairs' (table expected, got nil)
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:36: bad argument #1 to 'pairs' (table expected, got nil)
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:36: bad argument #1 to 'pairs' (table expected, got nil)
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[script:esx_joblistin] SCRIPT ERROR: @esx_joblisting/server/main.lua:40: attempt to concatenate a table value (local 'jobs')
+[ citizen-server-impl] Stopping resource esx_joblisting
+[38;5;161m[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] sync thread hitch warning: timer interval of 130 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[38;5;73m[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[38;5;73m[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Stopping resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[ citizen-server-impl] Stopping resource esx_lscustom
+[38;5;161m[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;73m[ citizen-server-impl] Stopping resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[38;5;42m[      script:oxmysql] [WARNING] esx_ambulancejob took 206.0837ms to execute a query!
+[      script:oxmysql]     UPDATE users SET is_dead = ? WHERE identifier = ? [false,"char1:8e2b99a77b486c5a741fed93c7516027aa8f2714"]
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[38;5;220m[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] sync thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 207 milliseconds
+[ citizen-server-impl] Stopping resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[ citizen-server-impl] server thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[38;5;73m[ citizen-server-impl] Started resource esx_policejob
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[script:esx_policejob] Error parsing script @esx_policejob/config.lua in resource esx_policejob: @esx_policejob/config.lua:174: '}' expected (to close '{' at line 131) near 'Config'
+[    c-scripting-core] [0mFailed to load script config.lua.
+[38;5;34m[script:esx_policejob] Error loading script server/main.lua in resource esx_policejob: @esx_policejob/server/main.lua:1: attempt to index a nil value (global 'Config')
+[script:esx_policejob] [0mstack traceback:
+[38;5;34m[script:esx_policejob] 	@esx_policejob/server/main.lua:1: in main chunk
+[    c-scripting-core] Failed to load script server/main.lua.
+[38;5;73m[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[script:esx_policejob] Error parsing script @esx_policejob/config.lua in resource esx_policejob: @esx_policejob/config.lua:157: '}' expected (to close '{' at line 132) near 'helicopter'
+[    c-scripting-core] Failed to load script config.lua.
+[script:esx_policejob] Error loading script server/main.lua in resource esx_policejob: @esx_policejob/server/main.lua:1: attempt to index a nil value (global 'Config')
+[script:esx_policejob] stack traceback:
+[script:esx_policejob] 	@esx_policejob/server/main.lua:1: in main chunk
+[    c-scripting-core] Failed to load script server/main.lua.
+[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 192 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] Stopping resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[ citizen-server-impl] Stopping resource esx_realestateagentjob
+[38;5;73m[ citizen-server-impl] Stopping resource esx_property
+[38;5;161m[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[38;5;161m[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[38;5;73m[ citizen-server-impl] Started resource esx_realestateagentjob
+[38;5;73m[ citizen-server-impl] Stopping resource esx_realestateagentjob
+[ citizen-server-impl] Stopping resource esx_property
+[    c-scripting-core] Creating script environments for esx_property
+[ citizen-server-impl] Started resource esx_property
+[38;5;161m[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[ citizen-server-impl] Started resource esx_realestateagentjob
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: The operation was canceled. <- System.TimeoutException: The operation was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Stopping resource esx_realestateagentjob
+[    c-scripting-core] Creating script environments for esx_realestateagentjob
+[38;5;73m[ citizen-server-impl] Started resource esx_realestateagentjob
+[38;5;220m[  script:es_extended] [INFO] Saved player "Loki Milow"
+[ citizen-server-main] -> Quitting: SIGHUP received
