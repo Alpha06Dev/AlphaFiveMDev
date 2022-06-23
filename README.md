@@ -15,4 +15,8 @@ Si ce n'est pas le cas, rejoignez le Discord et ouvrez un ticket pour avoir de l
 
 
 
+!!!!! ATTENTION ! LE FICHIER START.BAT NE FONCTIONNERA PAS !!!!!!!
+
+
+
 Discord Développement et mapping : https://discord.gg/ZukzBcVjD9
